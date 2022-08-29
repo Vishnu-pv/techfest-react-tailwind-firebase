@@ -6,6 +6,8 @@ import Hero from "./Hero";
 import Highlights from "./Highlights";
 import History from "./History";
 import Sponsors from "./Sponsors";
+import Profile from './Profile'
+import EventForm from "./EventForm";
 
 export {
     Navbar,
@@ -15,5 +17,7 @@ export {
     Hero,
     Highlights,
     History,
-    Sponsors
+    Sponsors,
+    Profile,
+    EventForm
 }

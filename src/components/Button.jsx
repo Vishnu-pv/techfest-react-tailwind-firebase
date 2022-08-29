@@ -26,7 +26,7 @@ const Button = ({style}) => {
 
     
   return (
-    <button type='button' className={`py-4 px-6 bg-blue-gradient
+    <button type='button' className={`py-4 px-6 bg-blue-gradient z-10
      font-poppins font-medium
     text-[18px] text-primary outline-none {styles} mt-5 rounded-[10px]`} onClick={profilePage}>
       Register Now

@@ -8,6 +8,7 @@ import ButtonLogOut from "./ButtonLogOut";
 import Button from "./Button";
 import GoogleSignInButton from "./GoogleSignInButton";
 import {home} from '../assets'
+import { swing } from 'react-animations'
 
 const Profile = () => {
 

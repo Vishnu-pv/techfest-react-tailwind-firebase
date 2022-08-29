@@ -1,6 +1,7 @@
 import { BrowserRouter,Route,Routes } from 'react-router-dom'
-import Profile from './components/Profile'
+
 import HomePage from './HomePage'
+import {EventForm,Profile} from './components'
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
     <Routes>
       <Route path="/" element={<HomePage/>}> </Route>
       <Route path="/profile" element={<Profile/>}> </Route>
+      <Route path="/form" element={<EventForm/>}></Route>
     </Routes>
   </BrowserRouter>
 );
